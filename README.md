@@ -19,9 +19,9 @@ Welcome to the Personal Info Template repository! This template is designed to h
 - Replace the placeholder text inside the HTML tags with your personal information.
 
 ### 3. **What to Fill In**
-- **Name:** Your full name.
-- **Department:** Your academic department.
-- **Level:** Your current academic level (e.g., 300 Level).
+- **Name:** Muhammad Tukur Muhammad.
+- **Department:**Computer Science .
+- **Level:** 300L.
 - **Career Goals:** Briefly state your career aspirations.
 - **Bio:** Share a short introduction or background about yourself.
 - **Fun Fact:** Mention something interesting or unique about yourself.
