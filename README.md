@@ -22,8 +22,8 @@ Welcome to the Personal Info Template repository! This template is designed to h
 - **Name:** Muhammad Tukur Muhammad.
 - **Department:**Computer Science .
 - **Level:** 300L.
-- **Career Goals:** Briefly state your career aspirations.
-- **Bio:** Share a short introduction or background about yourself.
+- **Career Goals:** I want to become a highly skilled and versatile senior web developer, capable of leading complex projects and contributing significantly to the development of innovative web applications and web pages.
+- **Bio:** I am Muhammad Tukur Muhammad by name, i was born in 2000s live in pantami Are inside Gombe LGA, and a current 300L student in computer science department from Gombe State University.
 - **Fun Fact:** Mention something interesting or unique about yourself.
 - **What I Learned from the Previous Session:** Reflect on key takeaways from a past learning experience.
 - **Tools for Web Development:** Keep the provided list or add tools you use.
