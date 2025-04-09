@@ -2,34 +2,242 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Muhammad Tukur Muhammad">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduction to Basic of GitHub">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About Me</title>
+<style>
+    body{
+  background: linear-gradient(90deg, #e2e2e2, #c9d6ff);
+  font-family: "poppins" Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  width: 600px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+
+.image{
+  width: 200px;
+  border-radius: 360px;
+  align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*HEADINGS SECTION*/
+h1{
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+
+h2{
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.head-tool{
+  text-align: center;
+  color: blue;
+}
+
+.click{
+  margin-top: 20px;
+  color: black;
+  font-family: "poppins";
+  font-size: 18px;
+  font-style: italic;
+}
+ 
+/*PRAGRAPH SECTION*/
+P{
+  padding-left: 20PX;
+  padding-right: 20px;
+  padding-bottom: 20PX;
+  text-align: justify;
+}
+
+/*DIV CLASS SECTION*/
+.tools{
+  background-color: white;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 24px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  border-radius: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/*FOOTER SECTION*/
+
+footer{
+  background-color: #111;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 18px;
+  
+}
+
+.footer-container{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.social-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.social-icon a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.social-icon a:hover{
+  background-color: #111;
+  opacity: 0.5s;
+}
+
+.social-icon a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-nav{
+  margin: 30px 0;
+}
+
+.footer-nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+  opacity: 1;
+}
+
+.footer-bottom{
+  background-color: black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.footer-bottom p{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+</style>
+
+
 </head>
 <body>
-    <h1>About Me</h1>
+    <header>SELF INTRODUCTION</header>
 
-    <h2>Name:</h2>
-    <p><!-- Your Name Here --></p>
+   <div class="container">
+    <h1>My Profile</h1>
+    <img class="image" src="20240919_093626.jpg">
+
+        <h2>Name:</h2>
+    <p>Muhammad Tukur Muhammad</p>
 
     <h2>Department:</h2>
-    <p><!-- Your Department Here --></p>
+    <p>Computer Science</p>
 
     <h2>Level:</h2>
-    <p><!-- Your Level Here --></p>
+    <p>300L</p>
+    </div>
 
     <h2>Career Goals:</h2>
-    <p><!-- Briefly mention your career aspirations --></p>
+    <p>
+        I want to become a highly skilled and versatile senior web developer, capable of leading complex projects and contributing significantly to the development of innovative web applications and web pages.
+
+    </p>
 
     <h2>Bio:</h2>
-    <p><!-- Share something about yourself --></p>
+    <p>
+        I am Muhammad Tukur Muhammad by name, i was born in 2000s live in pantami Area inside Gombe LGA, and a current 300L student in computer science department from Gombe State University. I am a web developer with a passion for creating dynamic and user-friendly websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks. I enjoy learning new technologies and improving my skills to stay updated in the ever-evolving field of web development.
+        I am also a team player and enjoy collaborating with others to achieve common goals. In my free time, I like to explore new programming languages and work on personal projects that challenge my creativity and problem-solving abilities.
+    </p>
 
     <h2>Fun Fact:</h2>
-    <p><!-- Mention a fun or interesting fact about you --></p>
+    <p>
+        I am a huge fan of technology and enjoy keeping up with the latest trends in web development. I also love to play video games in my spare time. My favorite programming language is JavaScript, and I am always eager to learn more about it and its frameworks.
+        I also enjoy reading books on technology and web development to expand my knowledge and skills. I believe that continuous learning is essential in this fast-paced industry, and I strive to stay ahead of the curve by exploring new tools and techniques.
+    </p>
 
     <h2>What I Learned from the Previous Session:</h2>
-    <p><!-- Reflect on the key takeaway from your last learning session --></p>
+    <p>
+        From the basics of GitHub tutorial, I have learned how to create repositories, commit changes, and push them to a remote repository. I also gained an understanding of branching, merging, and resolving conflicts, which are essential for collaborative development. Additionally, I learned how to use GitHub Pages to host websites and how to navigate the GitHub interface to manage projects effectively. These skills have enhanced my ability to work on version-controlled projects and collaborate with others in a professional manner.
+    </p>
 
-    <h2>Tools for Web Development:</h2>
+   <div class="tools">
+    <h2 class="head-tool">Tools for Web Development:</h2>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
@@ -38,12 +246,32 @@
         <li>Bootstrap</li>
         <li>VS Code</li>
     </ul>
+   </div>
 
-    <h2>Social Media Links:</h2>
-    <ul>
-        <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-        <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
-        <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
-    </ul>
+    <footer>
+        <div class="footer-container">
+            <div class="social-icon">
+                <a href="https://github.com/Shukur-Tech" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/fearlezz_Don?t=oo7By3yPag-a-n-ZMMTk8A&s=08" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-muhammad-tukur-8616a4310" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="http://www.tiktok.com/@fearlezz_don" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/fearlezz_don/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://web.facebook.com/muhammadtukur.muhammad.7547" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                 </div>
+         
+                 <div class="footer-nav">
+                     <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="#" target="_blank">About</a></li>
+                         <li><a href="#" target="_blank">Contact US</a></li>
+                         <li><a href="#">Our Team</a></li>
+                     </ul>
+                 </div>     
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2025 All rights reserved. Designed by <span class="designer">Muhammad Tukur Muhammad</span></p>
+        </div>
+    </footer>
 </body>
 </html>
